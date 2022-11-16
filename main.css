@@ -2,7 +2,7 @@ body {
     font-family: "raleway", sans-serif;
     color: #213053;
     margin: 0;
-  
+    
 }
 header { 
     display: flex;
@@ -68,6 +68,32 @@ button {
 .about__info {
     max-width: 550px; 
 }
-.form__conteiner {
-    width: 550ps;
+.form {
+   
+    background-color: #1D263A;
+    color: white;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.form__conteiner {
+    width: 550px;
+}
+.form__conteiner h1 {
+    font-size: 48px;
+}
+.form__conteiner p {
+    font-size: 18px;
+    opacity: 0.65;
+}
+.form__group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   
+}
+
