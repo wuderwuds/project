@@ -299,3 +299,14 @@ margin-bottom: 15px
         height: 75px;
     }
  }
+ 
+ .about {
+    position: relative;
+ }
+ 
+ .orb-canvas {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+ }
